@@ -1,0 +1,22 @@
+[project]
+name = "sinkhorn-mnist-knn"
+version = "0.1.0"
+description = "A simplified educational reproduction of Cuturi 2013 using Sinkhorn distances and k-NN on MNIST."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "jupyter",
+    "ipykernel"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
