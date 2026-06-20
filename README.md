@@ -16,7 +16,7 @@ Using this cost matrix, we compute Sinkhorn distances between images and use the
 
 The main explanation and experiment are available in the notebook:
 
-[Read the notebook here](PUT_NOTEBOOK_LINK_HERE)
+[Read the notebook here](https://github.com/Samuel-Vangu/sinkhorn-mnist-knn/blob/main/notebooks/sinkhorn_mnist_knn.ipynb)
 
 The notebook contains:
 
