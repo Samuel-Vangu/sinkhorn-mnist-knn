@@ -31,20 +31,7 @@ The notebook contains:
 Because computing Sinkhorn distances is expensive, the experiment is performed on a reduced subset of MNIST.
 
 The Sinkhorn distance obtained the best result among the tested distances in this simplified setting.
-
-<div align="center">
-  <br>
-  <img src="https://github.com/Samuel-Vangu/sinkhorn-mnist-knn/blob/main/notebooks/sinkhorn_mnist_knn.ipynb" alt="QMC Lib Logo" width="260"/>
-  <br><br>
-
-  <h1>QMC Lib</h1>
-
-  <p>
-    <strong>A Python library for Monte Carlo and Quasi-Monte Carlo numerical integration.</strong>
-  </p>
-</div>
-
----
+![Results](https://github.com/Samuel-Vangu/sinkhorn-mnist-knn/blob/main/results/comparison%20of%20knn%20accuracies.png)
 These results suggest that Sinkhorn distance can be an effective way to compare images seen as probability distributions, although it is more computationally expensive than classical distances.
 
 ## Code structure
