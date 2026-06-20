@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scikit-learn
+POT
+torch
+torchvision
+ipykernel
+notebook
