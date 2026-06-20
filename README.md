@@ -32,7 +32,7 @@ Because computing Sinkhorn distances is expensive, the experiment is performed o
 
 The Sinkhorn distance obtained the best result among the tested distances in this simplified setting.
 
-![Results](PUT_RESULTS_IMAGE_PATH_HERE)
+![Results](https://github.com/Samuel-Vangu/sinkhorn-mnist-knn/blob/main/notebooks/sinkhorn_mnist_knn.ipynb)
 
 These results suggest that Sinkhorn distance can be an effective way to compare images seen as probability distributions, although it is more computationally expensive than classical distances.
 
